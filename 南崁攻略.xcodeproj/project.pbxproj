@@ -503,6 +503,7 @@
 				67F2F85F1E86657E0069C849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67F2F8601E86657E0069C849 /* Build configuration list for PBXNativeTarget "南崁攻略Tests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +512,7 @@
 				67F2F8621E86657E0069C849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67F2F8631E86657E0069C849 /* Build configuration list for PBXNativeTarget "南崁攻略UITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				67F2F8651E86657E0069C849 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
