@@ -962,7 +962,7 @@ CP值超高的好吃燒肉飯
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="82"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="風車的故鄉" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IrS-b1-nXI">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="青青風車莊園" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IrS-b1-nXI">
                                                     <rect key="frame" x="11" y="15" width="323" height="53"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -971,6 +971,9 @@ CP值超高的好吃燒肉飯
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eiW-bD-0Xn" kind="show" id="gBC-V2-4EZ"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="83" id="amp-fy-ENh">
                                         <rect key="frame" x="0.0" y="83" width="375" height="83"/>
@@ -1740,6 +1743,46 @@ CP值超高的好吃燒肉飯
             </objects>
             <point key="canvasLocation" x="-105" y="4322"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="5cu-10-oou">
+            <objects>
+                <viewController id="eiW-bD-0Xn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iHK-wo-RSl"/>
+                        <viewControllerLayoutGuide type="bottom" id="17d-ad-4aW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3iL-9S-cYD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="風車" translatesAutoresizingMaskIntoConstraints="NO" id="xSC-3M-pT5">
+                                <rect key="frame" x="16" y="82" width="335" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wx4-da-o1d">
+                                <rect key="frame" x="16" y="261" width="328" height="349"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">青青風車莊園
+高貴也很貴的庭園餐廳
+牛排入口即化超好吃
+不過荷包會大失血
+
+電話：03- 2123233
+地址：桃園市蘆竹區中正北路326號
+網誌：http://blog.xuite.net/ourangel/baby/53244930-2Y7M14D_%E9%AB%98%E8%B2%B4%E4%B9%9F%E5%BE%88%E8%B2%B4%E7%9A%84%E6%A1%83%E5%9C%92%E9%A2%A8%E8%BB%8A%E7%9A%84%E6%95%85%E9%84%89%E5%BA%AD%E5%9C%92%E9%A4%90%E5%BB%B3</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXL-sI-FEF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2732" y="-911"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Ferris Wheel-50" width="25" height="25"/>
@@ -1768,6 +1811,7 @@ CP值超高的好吃燒肉飯
         <image name="豬排飯" width="710" height="531"/>
         <image name="鐵板燒" width="600" height="450"/>
         <image name="雲南" width="800" height="596"/>
+        <image name="風車" width="600" height="401"/>
         <image name="騎馬" width="930" height="620"/>
         <image name="高價位" width="1024" height="768"/>
         <image name="鵝肉" width="450" height="309"/>
